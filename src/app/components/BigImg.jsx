@@ -1,9 +1,8 @@
+import Image from "next/image";
+import Navy from "../../../public/navy.png";
+
 const BigImg = () => {
-	return (
-		<div>
-			<h2>Big Image Component</h2>
-		</div>
-	);
+	return <Image className="big-img" src={Navy} alt="Navy" />;
 };
 
 export default BigImg;

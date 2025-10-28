@@ -1,5 +1,5 @@
 const CTA = () => {
-	return <button>Buy Now</button>;
+	return <button className="cta">Buy Now</button>;
 };
 
 export default CTA;
