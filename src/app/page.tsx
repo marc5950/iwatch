@@ -1,20 +1,16 @@
 import Image from "next/image";
 import Heading from "./components/Heading";
-import BigImg from "./components/BigImg";
-import ColorPicker from "./components/ColorPicker";
+import WatchShowcase from "./components/WatchShowcase";
 import CTA from "./components/CTA";
 import PageSwitcher from "./components/PageSwitcher";
-import SmallImg from "./components/SmallImg";
 
 export default function Home() {
 	return (
 		<main className="grid-container">
 			<Heading />
-			<BigImg />
-			<ColorPicker />
+			<WatchShowcase />
 			<CTA />
 			<PageSwitcher />
-			<SmallImg />
 		</main>
 	);
 }

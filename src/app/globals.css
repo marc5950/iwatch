@@ -100,9 +100,6 @@ body {
 }
 
 .small-img {
-	grid-column: 2;
-	grid-row: 3;
-	place-self: end center;
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
@@ -148,8 +145,11 @@ body {
 	}
 }
 
-.big-img {
-	margin-bottom: -100px;
+.watch-showcase {
+	grid-column: 2 / 4;
+	grid-row: 1 / 4;
+	display: grid;
+	grid-template-columns: subgrid;
 }
 
 .heading {
